@@ -8,15 +8,15 @@ ANSWERS:
 
 2. Insert at least 3 documents that represent an order. IMPORTANT: See section below for fields.
 
-    db.getCollection('orders').insert({ orderDate: '2017-03-14', orderTotal: 10, lineItems: [{unitPrice:10.00}, {quantity:2}, {productName:"Bacon"}]});
+    db.getCollection('orders').insert({ orderDate: '2017-03-14', orderTotal: 10, lineItems: [{unitPrice:10.00}, {quantity:10}, {productName:"Bacon"}]});
 
-    db.getCollection('orders').insert({ orderDate: '2017-02-14', orderTotal: 20, lineItems: [{unitPrice:1.00}, {quantity:3}, {productName:"Steak"}]});
+    db.getCollection('orders').insert({ orderDate: '2017-02-14', orderTotal: 20, lineItems: [{unitPrice:1.00}, {quantity:100}, {productName:"Steak"}]});
 
-    db.getCollection('orders').insert({ orderDate: '2017-01-14', orderTotal: 100, lineItems: [{unitPrice:5.00}, {quantity:4}, {productName:"Chicken"}]});
+    db.getCollection('orders').insert({ orderDate: '2017-01-14', orderTotal: 100, lineItems: [{unitPrice:5.00}, {quantity:20}, {productName:"Chicken"}]});
 
 3. Find a single order document, any order document.
 
-    db.getCollection('orders').find({orderTotal: '1'})
+    db.getCollection('orders').find({orderTotal: 10})
 
 4. Find all orders and make them look pretty.
 

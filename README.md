@@ -38,7 +38,7 @@ Tasks:
 6. [ ]Find all orders with an orderDate that is after 1/1/2016.
 7. [ ]Find orders with lineItems that have a quantity that is less than 50, but greater than 5. HINT: Look at $and and dot notation.
 8. [ ]Update one of your line items to 42.99. HINT: Look at dot notation
-9. [] Remove one of your orders.
+9. [ ] Remove one of your orders.
 
 order fields:
 orderDate -- see https://docs.mongodb.org/manual/reference/method/Date/
@@ -49,7 +49,7 @@ quantity
 productName
 
 
-
+--------------------------------------------------
 
 
 
